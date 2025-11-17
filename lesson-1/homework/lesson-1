@@ -1,0 +1,49 @@
+Topic: Introduction to Power BI
+Prerequisites: Download Sales_Data.csv file
+
+What is Power BI, and what are its three main components?
+Power BI is a Data Visualization and Business Intelligence tool that converts data from different data sources to interactive dashboards and BI reports. Power BI suite provides multiple software, connector, and services - Power BI desktop, Power BI service based on Saas, and mobile Power BI apps available for different platforms
+Core components
+Power BI Desktop: The primary application for connecting to data, transforming and modeling it, and building visualizations to create reports.
+Power BI Service: A cloud-based service for publishing, sharing, and collaborating on reports and dashboards. It allows for real-time data refresh and access from any browser.
+Power BI Mobile: A mobile application that allows users to view and interact with their dashboards and reports on smartphones and tablets. 
+Name two business use cases for Power BI dashboards.
+Sales analytics
+Employee efficiency rating
+How do you download and install Power BI Desktop?
+Mainly through the Microsoft store just press the button get it will automatically download and install it for you
+What is the difference between Power BI Desktop and Power BI Service?
+Power BI Service is online and cloud based and refreshes any time there is an internet connection 
+Power BI desktop focuses on local databases and allow to work with any file that's located on the computer without internet connection
+What file extension does a Power BI project use?
+A Power BI project uses the .pbix file extension to save a complete report, including its data model and visualizations. Other related extensions include .pbit for report templates (which contain no data) and .pbip for project files that use a folder structure for easier version control and source code management.
+Explain the role of Power Query in Power BI.
+It is the process of cleansing and transforming data and permits users to access datasets connecting from multiple sources. It is included on the Power BI desktop. Business users may view the data from distinct databases like MySQL, SQL servers, DB2, and many more.
+Why would a business prefer Power BI over Excel for reporting?
+A business would prefer Power BI over Excel for reporting due to its ability to handle much larger datasets, connect to numerous data sources, and automate the data refresh process. Power BI also provides more interactive, visual, and customizable dashboards for deeper analysis, better collaboration tools, and advanced features like AI-driven insights and real-time data updates.
+Describe one limitation of the free version of Power BI.
+The size of databases you can work on is severely limited on free version not to mention pletora of functions that are hidden behind a paywall
+What is a "published report" in Power BI Service?
+A "published report" in Power BI Service is a report and its associated dataset that has been uploaded from Power BI Desktop to the cloud-based Power BI service. This process makes the report accessible for sharing, collaboration, and real-time viewing from anywhere, enabling users to create dashboards, share with colleagues, and keep data updated. Synonyms include a report in a Power BI workspace, a cloud-based report, or a shared report
+How does Power BI Mobile enhance accessibility?
+Power BI Mobile enhances accessibility through features like screen reader compatibility, keyboard navigation, high-contrast viewing options, and a "show data table" function, which benefit users with visual, motor, or cognitive impairments. It also allows report creators to design mobile-optimized views and supports assistive technologies for a more inclusive experience. 
+works on mobile devices so way more accessible than PowerBI Desktop or Service which are adjusted to pc
+Compare Power BI with Tableau—pros and cons.
+Power BI is often more affordable and easier to learn, making it ideal for businesses within the Microsoft ecosystem, while Tableau is better for organizations needing advanced visualization, customization, and scalability for large datasets. The main trade-offs are cost and ease of use (Power BI) versus visualization flexibility and high-end performance (Tableau).
+Explain how Power BI integrates with Azure services.
+Power BI integrates with Azure services to connect to and analyze data, build real-time reports, and embed analytics. Azure provides the data infrastructure (like Azure SQL Database or Azure Storage) and services, such as Azure Machine Learning and Azure Stream Analytics, which Power BI uses to visualize data, create dashboards, and perform advanced analytics. This integration allows for scalable, end-to-end data solutions without requiring extensive coding.
+What are "gateways" in Power BI, and when are they needed?
+Gateway software acts like a bridge; it allows organizations to retain databases and other data sources on their on-premises networks.
+How would you convince a company to adopt Power BI? (ROI argument)
+Data analytics are essential part of any business, only through analyzing current sales, revenue, efficiency can company increase its revenue or decrease costs that are unnecessary to the actual sales or production in which case cost for getting the right tool for the job, especially affordable one should be justified.
+What security features does Power BI offer for sensitive data?
+Power BI protects sensitive data through multiple layers of security, including data encryption at rest and in transit, Row-Level Security (RLS), Microsoft Information Protection (MIP) sensitivity labels, and strong user authentication. Additional features include Object-Level Security (OLS), audit logs, and Data Loss Prevention (DLP) policies. 
+
+Sales_Data
+
+OrderID	Product	Quantity	Price	OrderDate
+1001	Laptop	2	1200	1/5/2023
+1002	Mouse	5	25	2/5/2023
+1003	Keyboard	1	80	2/5/2023
+1004	Monitor	1	300	3/5/2023
+1005	Laptop	1	1200	3/5/2023
